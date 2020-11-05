@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GradeInputActivity"
+    android:orientation="vertical">
+    <!-- The TextViews show what data needs to be entered to each corresponding EditText-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_no_of_students"/>
+    <!-- The EditText holds only accepts numbers as described by input type-->
+    <!-- The EditText is used to transfer the input to java file to rate calculation-->
+    <EditText
+        android:id="@+id/totalStudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_students_with_an_a"/>
+    <EditText
+        android:id="@+id/numStudentsA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_students_with_an_b"/>
+    <EditText
+        android:id="@+id/numStudentsB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_students_with_an_c"/>
+    <EditText
+        android:id="@+id/numStudentsC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_students_with_an_d"/>
+    <EditText
+        android:id="@+id/numStudentsD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_students_with_an_f"/>
+    <EditText
+        android:id="@+id/numStudentsF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""/>
+    <!--This button will call a dialog with a button to call the BarGraph activity -->
+    <Button
+        android:id="@+id/computeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compute"
+        android:onClick="computeGrades"
+        />
+
+
+</LinearLayout>

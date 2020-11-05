@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Grade Chart Maker</string>
+    <!-- These are the strings used in the welcome screen-->
+    <string name="welcome_screen_text">\t\t\tWelcome to\nGrade Chart Maker</string>
+    <string name="instructions">Instructions:\n•Enter the number of students with each grade\n•Graph your grades!!</string>
+    <string name="continueButton">Continue</string>
+    <!--These are the string used for the TextViews in GradeInputActivity -->
+    <string name="total_no_of_students">Total No. of Students</string>
+    <string name="number_of_students_with_an_a">No. of students with an A</string>
+    <string name="number_of_students_with_an_b">No. of students with a B</string>
+    <string name="number_of_students_with_an_c">No. of students with a C</string>
+    <string name="number_of_students_with_an_d">No. of students with a D</string>
+    <string name="number_of_students_with_an_f">No. of students with a F</string>
+    <string name="compute">Compute</string>
+</resources>
